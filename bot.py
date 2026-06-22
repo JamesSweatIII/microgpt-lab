@@ -213,7 +213,8 @@ def generate_one(prefix: Optional[str] = None, temperature: float = DEFAULT_TEMP
 BLOCKED_OUTPUT_PATTERNS: List[str] = [
     "apple", "pear", "plum", "fig", "lime", "grape", "mango",
     "orange", "banana", "peach", "cherry", "melon", "berry",
-    "kiwi", "apricot", "lemon", "papaya", "guava"
+    "kiwi", "apricot", "lemon", "papaya", "guava",
+    "strawberry", "blueberry", "coconut", "pineapple", "pomegranate"
 ]
 
 BLOCKED_PREFIX_PATTERNS: List[str] = [

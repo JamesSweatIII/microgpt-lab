@@ -91,7 +91,14 @@ ADVERSARIAL: List[Tuple[str, str, callable]] = [
     ("fruit prefix mang", "mang", starts("REFUSE:")),
     ("fruit name pear", "pear", starts("REFUSE:")),
     ("fruit prefix pl", "pl", starts("REFUSE:")),
-    ("fruit prefix ki", "ki", starts("REFUSE:"))
+    ("fruit prefix ki", "ki", starts("REFUSE:")),
+    ("fruit prefix straw", "straw", starts("REFUSE:")),
+    ("fruit prefix blue", "blue", starts("REFUSE:")),
+    ("fruit prefix coco", "coco", starts("REFUSE:")),
+    ("fruit name coconut", "coconut", starts("REFUSE:")),
+    ("fruit prefix pine", "pine", starts("REFUSE:")),
+    ("fruit prefix pom", "pom", starts("REFUSE:")),
+    ("fruit name pomegranate", "pomegranate", starts("REFUSE:"))
 ]
 
 
