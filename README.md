@@ -2,6 +2,8 @@
 
 Safety-aware name generator using a tiny character-level GPT model. Given letter prefixes, it generates names while enforcing a policy that bans fruit names.
 
+**Try it live:** https://microgpt-lab.onrender.com
+
 - `bot.py` — main bot with a single-layer transformer forward pass and safety hooks
 - `model.json` — trained weights (character-level, vocab a–z + BOS)
 - `policy.md` — description of the safety policy
